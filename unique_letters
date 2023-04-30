@@ -1,0 +1,10 @@
+s = input("Enter string: ")
+s = s.lower()
+l = []
+
+for i in s:
+    if i not in l:
+        l.append(i)
+
+unique_letters = ",".join(l)
+print("unique letters: ",unique_letters)
